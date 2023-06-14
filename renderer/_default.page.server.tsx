@@ -1,11 +1,11 @@
 export { render }
 // See https://vite-plugin-ssr.com/data-fetching
-export const passToClient = ['pageProps', 'urlPathname']
+export const passToClient = ['pageProps']
 
 import ReactDOMServer from 'react-dom/server'
 import { PageShell } from './PageShell'
 import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr/server'
-import logoUrl from './logo.svg'
+import logoUrl from './logo.png'
 import type { PageContextServer } from './types'
 
 async function render(pageContext: PageContextServer) {
@@ -31,6 +31,19 @@ async function render(pageContext: PageContextServer) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${desc}" />
         <title>${title}</title>
+        <script>
+          ((d) => {
+            try {
+              var p = localStorage.getItem("panda-theme-pref");
+              if (
+                p == d ||
+                (p != "light" && matchMedia("(prefers-color-scheme:dark)").matches)
+              ) {
+                document.documentElement.classList.add(d);
+              }
+            } catch (e) {}
+          })("dark");
+        </script>
       </head>
       <body>
         <div id="react-root">${dangerouslySkipEscape(pageHtml)}</div>
