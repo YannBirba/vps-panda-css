@@ -1,4 +1,10 @@
 {
+  "_chunk-0ced081a.js": {
+    "file": "assets/chunks/chunk-0ced081a.js",
+    "imports": [
+      "_chunk-76f7fb99.js"
+    ]
+  },
   "_chunk-76f7fb99.js": {
     "file": "assets/chunks/chunk-76f7fb99.js"
   },
@@ -12,7 +18,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.d2c3951b.js",
+    "file": "assets/entries/entry-server-routing.6f015f1e.js",
     "imports": [
       "_chunk-99aa1fd4.js"
     ],
@@ -26,22 +32,15 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.74bccb9c.js",
+    "file": "assets/entries/entry-client-routing.21f13ecc.js",
     "imports": [
       "_chunk-99aa1fd4.js"
     ],
     "isEntry": true,
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.131_vite@4.3.9/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
   },
-  "pages/about/index.page.css": {
-    "file": "assets/static/index.page.f1aef519.css",
-    "src": "pages/about/index.page.css"
-  },
   "pages/about/index.page.tsx": {
-    "css": [
-      "assets/static/index.page.f1aef519.css"
-    ],
-    "file": "assets/entries/pages_about_index.page.288bc4ad.js",
+    "file": "assets/entries/pages_about_index.page.b7bc59dd.js",
     "imports": [
       "_chunk-76f7fb99.js"
     ],
@@ -50,16 +49,17 @@
     "src": "pages/about/index.page.tsx"
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/entries/pages_index_index.page.c66996b3.js",
+    "file": "assets/entries/pages_index_index.page.9e8e8906.js",
     "imports": [
-      "_chunk-76f7fb99.js"
+      "_chunk-76f7fb99.js",
+      "_chunk-0ced081a.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "pages/index/index.page.tsx"
   },
   "renderer/_default.page.client.css": {
-    "file": "assets/static/default.page.client.328b151c.css",
+    "file": "assets/static/default.page.client.4585ee9e.css",
     "src": "renderer/_default.page.client.css"
   },
   "renderer/_default.page.client.tsx": {
@@ -67,11 +67,12 @@
       "assets/static/logo.2af02c27.png"
     ],
     "css": [
-      "assets/static/default.page.client.328b151c.css"
+      "assets/static/default.page.client.4585ee9e.css"
     ],
-    "file": "assets/entries/renderer_default.page.client.4ff9a195.js",
+    "file": "assets/entries/renderer_default.page.client.7386c674.js",
     "imports": [
-      "_chunk-76f7fb99.js"
+      "_chunk-76f7fb99.js",
+      "_chunk-0ced081a.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
