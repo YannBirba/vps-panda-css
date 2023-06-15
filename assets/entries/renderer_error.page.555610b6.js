@@ -1,0 +1,1 @@
+import{j as e}from"../chunks/chunk-76f7fb99.js";function t({is404:n}){return n?e.jsxs(e.Fragment,{children:[e.jsx("h1",{children:"404 Page Not Found"}),e.jsx("p",{children:"This page could not be found."})]}):e.jsxs(e.Fragment,{children:[e.jsx("h1",{children:"500 Internal Error"}),e.jsx("p",{children:"Something went wrong."})]})}export{t as Page};
