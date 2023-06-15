@@ -1,5 +1,5 @@
 import { defineConfig } from "@pandacss/dev";
-import { globalCss } from "./globalCss";
+import { globalCss } from "./renderer/globalCss";
 
 export default defineConfig({
   // Whether to use css reset
@@ -17,6 +17,12 @@ export default defineConfig({
 
   // The output directory for your css system
   outdir: "styled-system",
+
+  jsxFactory: "panda",
+
+  minify: true,
+
+  jsxFramework: "react",
 
   globalCss,
 
@@ -112,8 +118,6 @@ export default defineConfig({
             description: "A link",
             base: {
               cursor: "pointer",
-              paddingBlock: 3,
-              paddingInline: 10,
               color: "fg.text",
               textDecoration: "none",
               fontWeight: "bold",
@@ -122,6 +126,8 @@ export default defineConfig({
             variants: {
               variant: {
                 navLink: {
+                  paddingBlock: 3,
+                  paddingInline: 10,
                   backgroundColor: "transparent",
                   _hover: {
                     color: "#000",

@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -1162,6 +1162,8 @@ packages:
     dependencies:
       '@pandacss/error': 0.3.0
       '@pandacss/logger': 0.3.0
+      '@pandacss/preset-base': 0.3.0
+      '@pandacss/preset-panda': 0.3.0
       '@pandacss/types': 0.3.0
       bundle-n-require: 1.0.1
       escalade: 3.1.1
@@ -1336,6 +1338,12 @@ packages:
     transitivePeerDependencies:
       - jsdom
       - typescript
+    dev: true
+
+  /@pandacss/preset-base@0.3.0:
+    resolution: {integrity: sha512-sl+Yz9dg3hl0uIk/1m2IKJAVYkHEk3lYG7SBxMTOknGViXDe6m5Y62PggaX6FXm6BJQdtCNxBZgUBDlYnFCGIw==}
+    dependencies:
+      '@pandacss/types': 0.3.0
     dev: true
 
   /@pandacss/preset-panda@0.3.0:

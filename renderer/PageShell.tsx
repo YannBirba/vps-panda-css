@@ -4,7 +4,7 @@ import { PageContextProvider } from './usePageContext'
 import type { PageContext } from './types'
 import './index.css'
 import { Link } from './Link'
-import { css } from '../styled-system/css'
+import { css, cx } from '../styled-system/css'
 import { useColorMode } from './hooks/useColorMode'
 
 export { PageShell }
@@ -26,8 +26,8 @@ function PageShell({ children, pageContext }: { children: React.ReactNode; pageC
              <button
               name="theme-toggle"
               onClick={toggle}
-              className={
-                "panda-theme-toggle-button " +
+              className={cx(
+                "panda-theme-toggle-button",
                 css({
                   position: "relative",
                   display: "flex",
@@ -40,13 +40,13 @@ function PageShell({ children, pageContext }: { children: React.ReactNode; pageC
                   background: "bg.accent",
                   mt: 15,
                   pt: 3,
-                  pl: 7,
+                  pl: 1,
                   cursor: "pointer",
                   boxShadow: "0 0 10px rgba(0, 0, 0, 0.4)",
                   _before: {
                     position: "absolute",
                   },
-                })
+                }))
               }
             />
           </Sidebar>

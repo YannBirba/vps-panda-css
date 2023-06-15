@@ -30,5 +30,25 @@ export const globalCss = defineGlobalStyles({
       content: "'🌙'",
       filter: "brightness(0)",
     },
+  },
+  li: {
+    paddingLeft: "0.25rem",
+    marginLeft: "0.5rem",
+    marginBottom: "0.25rem",
+  },
+  "li::marker": {
+    color: "fg.text",
+    content: "'🐼'",
+  },
+  code: {
+    backgroundColor: "bg.surface",
+    fontFamily: "monospace",
+    padding: "3px 5px",
+    borderRadius: "4px",
+    boxShadow: "0 0 3px rgba(0, 0, 0, 0.2)"
+  },
+  h1: {
+    fontSize: "x-large",
+    paddingBlock: 5
   }
 });
