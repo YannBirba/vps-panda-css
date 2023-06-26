@@ -36,6 +36,6 @@
   },
   "type": "module",
   "devDependencies": {
-    "@pandacss/dev": "^0.3.0"
+    "@pandacss/dev": "^0.5.0"
   }
 }
