@@ -1,15 +1,15 @@
 {
-  "_chunk-09974f6e.js": {
-    "file": "assets/chunks/chunk-09974f6e.js",
-    "imports": [
-      "_chunk-76f7fb99.js"
-    ]
-  },
   "_chunk-76f7fb99.js": {
     "file": "assets/chunks/chunk-76f7fb99.js"
   },
   "_chunk-99aa1fd4.js": {
     "file": "assets/chunks/chunk-99aa1fd4.js"
+  },
+  "_chunk-9d2405d7.js": {
+    "file": "assets/chunks/chunk-9d2405d7.js",
+    "imports": [
+      "_chunk-76f7fb99.js"
+    ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.131_vite@4.3.9/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
     "dynamicImports": [
@@ -18,7 +18,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.8d68f49f.js",
+    "file": "assets/entries/entry-server-routing.1e0b7ea7.js",
     "imports": [
       "_chunk-99aa1fd4.js"
     ],
@@ -32,7 +32,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.3906dccb.js",
+    "file": "assets/entries/entry-client-routing.5781b1d0.js",
     "imports": [
       "_chunk-99aa1fd4.js"
     ],
@@ -49,17 +49,17 @@
     "src": "pages/about/index.page.tsx"
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/entries/pages_index_index.page.f3d67dd4.js",
+    "file": "assets/entries/pages_index_index.page.6d488c93.js",
     "imports": [
       "_chunk-76f7fb99.js",
-      "_chunk-09974f6e.js"
+      "_chunk-9d2405d7.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "pages/index/index.page.tsx"
   },
   "renderer/_default.page.client.css": {
-    "file": "assets/static/default.page.client.4585ee9e.css",
+    "file": "assets/static/default.page.client.baed93bf.css",
     "src": "renderer/_default.page.client.css"
   },
   "renderer/_default.page.client.tsx": {
@@ -67,12 +67,12 @@
       "assets/static/logo.2af02c27.png"
     ],
     "css": [
-      "assets/static/default.page.client.4585ee9e.css"
+      "assets/static/default.page.client.baed93bf.css"
     ],
-    "file": "assets/entries/renderer_default.page.client.92d123fc.js",
+    "file": "assets/entries/renderer_default.page.client.8da3281b.js",
     "imports": [
       "_chunk-76f7fb99.js",
-      "_chunk-09974f6e.js"
+      "_chunk-9d2405d7.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
