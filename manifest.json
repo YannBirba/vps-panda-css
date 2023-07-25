@@ -5,8 +5,8 @@
   "_chunk-99aa1fd4.js": {
     "file": "assets/chunks/chunk-99aa1fd4.js"
   },
-  "_chunk-b2fc00e4.js": {
-    "file": "assets/chunks/chunk-b2fc00e4.js",
+  "_chunk-a66b7ab0.js": {
+    "file": "assets/chunks/chunk-a66b7ab0.js",
     "imports": [
       "_chunk-76f7fb99.js"
     ]
@@ -18,7 +18,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.9c890b25.js",
+    "file": "assets/entries/entry-server-routing.b3fceb69.js",
     "imports": [
       "_chunk-99aa1fd4.js"
     ],
@@ -32,7 +32,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.8fce55f5.js",
+    "file": "assets/entries/entry-client-routing.abddfb04.js",
     "imports": [
       "_chunk-99aa1fd4.js"
     ],
@@ -49,17 +49,17 @@
     "src": "pages/about/index.page.tsx"
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/entries/pages_index_index.page.6abbc50f.js",
+    "file": "assets/entries/pages_index_index.page.8621cf89.js",
     "imports": [
       "_chunk-76f7fb99.js",
-      "_chunk-b2fc00e4.js"
+      "_chunk-a66b7ab0.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "pages/index/index.page.tsx"
   },
   "renderer/_default.page.client.css": {
-    "file": "assets/static/default.page.client.baed93bf.css",
+    "file": "assets/static/default.page.client.2e667b1c.css",
     "src": "renderer/_default.page.client.css"
   },
   "renderer/_default.page.client.tsx": {
@@ -67,12 +67,12 @@
       "assets/static/logo.2af02c27.png"
     ],
     "css": [
-      "assets/static/default.page.client.baed93bf.css"
+      "assets/static/default.page.client.2e667b1c.css"
     ],
-    "file": "assets/entries/renderer_default.page.client.1b39d24c.js",
+    "file": "assets/entries/renderer_default.page.client.e53ef8c0.js",
     "imports": [
       "_chunk-76f7fb99.js",
-      "_chunk-b2fc00e4.js"
+      "_chunk-a66b7ab0.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
